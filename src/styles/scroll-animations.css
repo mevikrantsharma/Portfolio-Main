@@ -1,0 +1,32 @@
+/* Base styles for sections before reveal */
+.section-hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(100px);
+  transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Reveal animation */
+.reveal {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
+
+/* Different animations for different sections */
+.slide-left {
+  transform: translateX(-100px);
+}
+
+.slide-right {
+  transform: translateX(100px);
+}
+
+.scale-up {
+  transform: scale(0.8);
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(0);
+}
