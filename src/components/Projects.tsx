@@ -25,7 +25,7 @@ const Projects = () => {
       description: 'A sleek and responsive weather forecast interface with modern design elements, featuring daily and weekly weather predictions with intuitive visualization.',
       technologies: ['HTML', 'CSS', 'Bootstrap'],
       github: 'https://github.com/mevikrantsharma/Weather-Forecast-UI',
-      demo: 'https://weatherui.netlify.app/'
+      demo: 'https://weatherforecastvs.netlify.app/'
     }
   ];
 
